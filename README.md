@@ -1,48 +1,36 @@
-# swirl courses
+# Cursos con Swirl
+*Traducción del paquete por Juan José E. López*
 
-This is a collection of interactive courses for use with the [swirl R package](http://swirlstats.com). You'll find instructions for installing courses further down on this page. Some courses are still in development and we'd love to hear any [suggestions](https://github.com/swirldev/swirl_courses/issues/new) you have as you work through them.
+Esta es una colección de cursos de código abierto creados por la Universidad Johns Hopkins para funcionar con la paquetería [swirl R package](http://swirlstats.com). Aquí yacen las instrucciones de instalación, el equipo de la universidad esta constantemente mejorando y actualizando su contenido, con lo cual aceptan [sugerencias](https://github.com/swirldev/swirl_courses/issues/new).
 
-For more information regarding swirl, visit [swirlstats.com](http://swirlstats.com) or the [swirl GitHub repository](https://github.com/swirldev/swirl). If you'd like to write your own interactive content, please visit the [Instructors page](http://swirlstats.com/instructors.html) of our website.
+para mayor información con respecto a swirl, visitar [swirlstats.com](http://swirlstats.com) o el [repositorio original en GitHub](https://github.com/swirldev/swirl). Si prefieren colaborar creando su propio contenido pueden visitar la [página de instructores](http://swirlstats.com/instructors.html) en el sitio web de swirl.
 
-Here are our current offerings, organized by level of difficulty:
+Realizaré la traducción de los cursos dispuestos originalmente por la universidad, manteniendo la política de código abierto y sin ningún fin económico detrás, sino más bien el propósito es llevar este contenido de calidad a todas las aulas de habla hispana del mundo. A continuación se enlistan los cursos según dificultad:
 
-#### Beginner
+#### Introductorios
 
-- **R Programming**: The basics of programming in R
-- [**R Programming E**](https://github.com/swirldev/R_Programming_E): Same as the original, but modified slightly for in-class use (see below ***)
-- [**The R Programming Environment**](https://swirlstats.com/scn/rpe.html)
+- **Programación en R**: Programación básica con lenguaje R.
 <!-- - **Data Analysis**: Basic ideas in statistics and data visualization -->
 <!-- - **Mathematical Biostatistics Boot Camp**: One- and two-sample t-tests, power, and sample size -->
 <!-- - **Open Intro**: A very basic introduction to statistics, data analysis, and data visualization -->
 
-\*\*\* *R Programming E is identical to R Programming, except we've eliminated the prompts for Coursera credentials at the end of each lesson and instead give students the option to send an email to their instructor notifying them of completion. Admittedly, it's sort of a hack until we come up with a more robust solution for in-class use (i.e. an instructor "dashboard").*
+\*\*\* *El curso fue modificado para notificar al instructor por email al finalizar el mismo, en el código original se generaba un key con créditos para la especialización en Coursera*
 
-#### Intermediate
+#### Intermedios
 
-- **Regression Models**: The basics of regression modeling in R
-- **Getting and Cleaning Data**: dplyr, tidyr, lubridate, oh my!
+- **Modelos de Regresión**: Los modelos básicos de regresión en R.
+- **Obtención y Limpieza de Datos**: Un curso escencial, pues gran parte del tiempo empleado en análisis se deriva a la obtención, la manipulación y la limpieza del dataset; se ven paqueterías como dplyr, tidyr, lubridate.
 
-#### Advanced
+#### Avanzados
 
-- **Statistical Inference**: This intermediate to advanced level course closely follows the
-[Statistical Inference course](https://www.coursera.org/course/statinference) of the Johns Hopkins 
-[Data Science Specialization](https://www.coursera.org/specialization/jhudatascience/1) on Coursera. It
-introduces the student to basic concepts of statistical inference
-including probability, hypothesis testing, confidence intervals and
-p-values. It concludes with an initiation to topics of particular
-relevance to big data, issues of multiple testing and resampling.
-- [**Advanced R Programming**](https://swirlstats.com/scn/arp.html)
+- **Estadística Inferencial**: Este curso fue pensado para complementar el curso
+[Statistical Inference ](https://www.coursera.org/course/statinference) de la especialización de la Universidad Johns Hopkins en
+[Data Science ](https://www.coursera.org/specialization/jhudatascience/1) para Coursera. Se introducen los conceptos básicos de inferencia estadística, como lo son las probabilidades, las pruebas de hipótesis, los intervalos de confianza y los p-valores. También se incluye una aproximación al Big Data y problemas del testeo múltiple y el "resampling".
+- [**Programación Avanzada en R**](https://swirlstats.com/scn/arp.html)
 
 Since our users come from a variety backgrounds, it's very hard to label material as **Beginner**, **Intermediate**, or **Advanced**. If you find something that is labelled **Beginner** to be challenging, please don't be discouraged. The first step of learning anything is to acknowledge that you are capable of understanding it. True understanding will come with time and practice.
 
-#### Course Authors
-
-- **Writing swirl Courses**: An interactive guides and example 
-  for swirl course authors. The first group of lessons cover basics. The rest cover 
-  special topics useful primarily as samples--points of departure for one's own material.
-  For more comprehensive documentation about writing your own swirl courses see http://swirlstats.com/swirlify/.
-
-## Install and run a course automatically from swirl
+## Instalar y Correr Swirl
 
 **This is the preferred method of installing courses.** It automates the process by allowing you to do everything right from the R console.
 
